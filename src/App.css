@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+element.style {
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-dark {
+    background-color: #344767!important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-center {
+    text-align: center!important;
 }
-
-.App-link {
-  color: #61dafb;
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(33,37,41,var(--bs-bg-opacity))!important;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-landing, .multiverse {
+    background-image: url(https://res.cloudinary.com/fahad-shahzad/image/upload/v1663946050/web3maker./landing-page-2/Screenshot_2022-09-23_at_8.03.53_PM_ef0h4r.png);
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-weight: 400;
+    line-height: 1.6;
 }
