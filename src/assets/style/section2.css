@@ -1,0 +1,65 @@
+.section2 {
+    background-image: url(https://res.cloudinary.com/fahad-shahzad/image/upload/v1663946050/web3maker./landing-page-2/Screenshot_2022-09-23_at_8.01.01_PM_on6odn.png);
+    background-size: cover;
+    padding-bottom: 20px;
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+body {
+    font-weight: 400;
+    line-height: 1.6;
+}
+.jss1 img{
+    filter: grayscale(1) contrast(0.5) brightness(1.5);
+    height: 64px;
+    margin: 32px;
+    transition: all 0.3s ease-out;
+}
+img , svg {
+    vertical-align: middle;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.jss1 img:hover {
+    filter: none;
+}
+.font-bold-lato {
+    font-family: Lato,serif;
+    font-weight: 700;
+}
+.btn-lg{
+     
+    background-color: rgb(111, 52, 142);
+    color: white;
+}
+.btn:not([class*=btn-outline-]) {
+    border: 0;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.btn{
+    background-position-x: 25%;
+    background-size: 150%;
+    box-shadow: 0 4px 7px -1px rgba(0,0,0,.11), 0 2px 4px -1px rgba(0,0,0,.07);
+    letter-spacing: -.025rem;
+    margin-bottom: 1rem;
+}
+.btn:hover:not(.btn-icon-only) {
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.09), 0 2px 3px -1px rgba(0,0,0,.07);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+.section2pic{
+    border-radius: 10px;
+}

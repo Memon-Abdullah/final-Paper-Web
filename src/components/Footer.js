@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Footer = () => {
     return (
-        <div className="bg-dark text-center footer-landing">
+        <div className="bg-dark text-center footer-landing container-fluid">
             <img height="80" width="80" src="https://res.cloudinary.com/fahad-shahzad/image/upload/v1660318002/web3maker./icon_yrkmpm.png" alt="" />
             <div className="nav" style={{ marginLeft: "30rem" }}>
                 <a role="button" className="nav-link" tabIndex="0" href="/">
